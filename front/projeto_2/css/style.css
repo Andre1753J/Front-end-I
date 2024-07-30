@@ -1,0 +1,29 @@
+:root {
+    --cor1: gray;
+    --cor2: 
+}
+
+body {
+    background-color: dimgray;
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    padding: 0%;
+    
+}
+
+.inicio {
+    width: 60%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 300px;
+    min-width: 50%;
+}
+
