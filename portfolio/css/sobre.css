@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    text-align: center;
+}
+
+section img {
+    width: 150px;
+    margin-top: 1rem;
+}
+
+.infors {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.sobre {
+    min-width: 100px;
+    max-width: 420px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-bottom: 16px;
+    width: 80%;
+}
+
+#fullstack {
+    max-width: 100%;
+    margin-top: 20%;
+}

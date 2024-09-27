@@ -1,0 +1,147 @@
+h1 {
+    font-size: 32px;
+    color: orangered;
+    font-family: serif;
+}
+
+#h1g {
+    color: orangered;
+    font-family: serif;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+}
+
+ul {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0%;
+}
+
+img {
+    height: 300px;
+}
+
+span {
+    font-style: oblique;
+}
+
+.classes_t {
+    color: white;
+    font-size: 30px;
+    font-family: lumari;
+    list-style: none;
+}
+
+#start {
+    color: royalblue;
+    font-family: fantasy;
+}
+
+.classe {
+    border: 3px solid red;
+    width: 700px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body1 {
+    background-image: url('../img/maxwell 1 cat.gif');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+}
+
+#body2 {
+    background-image: url('../img/maxwell 2 cat.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bt {
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 10%;
+}
+
+.botao {
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 10%;
+    background-color: rebeccapurple;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: center;
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.2)
+}
+
+.Bosses {
+    border: 3px solid red;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boss {
+    height: auto;
+}
+
+footer {
+    bottom: 0;
+    padding: 0;
+    height: 200px;
+    width: 100vw;
+    margin-top: 0px;
+    background: url('../img/elmo.gif');
+    background-repeat: no-repeat;
+    background-size: 1875px 200px;
+    background-position-x: center;
+}
+
+#index {
+    bottom: 0;
+    padding: 0;
+    height: 200px;
+    width: 100vw;
+    position: absolute;
+    background: url('../img/elmo.gif');
+    background-repeat: no-repeat;
+    background-size: 1875px 200px;
+    background-position-x: center;
+
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+ border-radius: 20px;
+}

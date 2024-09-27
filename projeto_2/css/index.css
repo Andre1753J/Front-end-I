@@ -1,0 +1,49 @@
+:root {
+    --cor1: dimgray;
+    --cor2: black;
+    --cor3: white;
+    --cor4: lightgray;
+}
+
+body {
+    background-color: var(--cor1);
+    background: linear-gradient(0deg, var(--cor1), var(--cor2));
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    padding: 0%;
+    background-repeat: no-repeat;
+}
+
+p, h2{
+    color: var(--cor3);
+    margin: 18px auto;
+    line-height: 1.5em
+}
+
+h3 {
+    color: var(--cor3);
+    font-size: 18px;
+    margin: 18px;
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--cor4);
+    font-size: 32px;
+    margin: 21px auto;
+    font-weight: bold;
+}
+
+.inicio {
+    width: 60%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+img {
+    max-width: 300px;
+    min-width: 50%;
+}

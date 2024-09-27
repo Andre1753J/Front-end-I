@@ -1,0 +1,24 @@
+:root {
+    --cor1: #333;
+    --cor2: black;
+    --cor3: white;
+    --cor4: lightgray;
+    --cor5: aliceblue;
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--cor3);
+    text-decoration: none;
+}

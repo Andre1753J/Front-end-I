@@ -1,0 +1,83 @@
+:root {
+    --cor1: dimgray;
+    --cor2: black;
+    --cor3: white;
+    --cor4: lightgray;
+}
+
+body {
+    background-color: var(--cor1);
+    background: linear-gradient(0deg, var(--cor1), var(--cor2));
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: var(--cor3);
+    margin: 18px auto;
+    line-height: 1.5em
+}
+
+h2{
+    color: var(--cor3);
+    font-size: 24px;
+    margin: 18px auto;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+
+h3 {
+    color: var(--cor3);
+    font-size: 18px;
+    margin: 18px;
+    font-weight: bold;
+}
+
+.inicio {
+    width: 60%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.divisor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.divisoes {
+    min-width: 25%;
+    max-width: 25%;
+    gap: 10px 30px;
+}
+
+.Img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Subititulo-divisoes {
+    color: var(--cor3);
+}
+
+img {
+    max-width: 30%;
+    min-width: 50%;
+}
+
+h1 {
+    color: var(--cor4);
+    font-size: 32px;
+    margin: 21px auto;
+    font-weight: bold;
+}
+
+#Guerra {
+    margin-bottom: 15px;
+}
